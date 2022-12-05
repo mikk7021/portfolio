@@ -1,0 +1,35 @@
+
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(20,20,20,0.5);
+    section {
+        width: 80%;
+        margin: auto;
+        background-color: #fff;
+        position: relative;
+        margin-top: 0.5rem;
+        svg {
+            position: fixed;
+            z-index: 98;
+            top: 0;
+            right: 0;
+            margin: 1rem;
+            transform: translateX(-2vw);
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            filter: invert(100%);
+        }
+        .modalimage {
+            width: 100%;
+            min-height: 300px;
+            max-height: 49vw;
+            margin: auto;
+        }    
+    }
+}

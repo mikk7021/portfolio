@@ -1,0 +1,91 @@
+.desktop {
+    width: 100%;
+
+    img {
+     
+        border-radius: 4px;
+        width: 42vw;
+        height: 26vw;
+    }
+    
+}
+
+
+.mobile {
+    overflow: visible;
+    text-align: center;
+    div {
+        overflow: visible;
+    }
+    img {
+        width: 100%;
+    }
+    .buttonContainer{
+        justify-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        transform: translate(0%, -150%);
+        width: 90%;
+        .leftbutton {
+            z-index: 99;
+            margin-left: .6rem;
+            background-image: url('../assets/images/arrow-left.png');
+            width: 2.5vw;
+            justify-self: start;
+            height: 2.5vw;
+            filter: invert(80%);
+            border: none;
+            background-repeat: no-repeat;
+            background-size: contain;            
+        }
+        .rightbutton {
+            justify-self: end;
+            margin-right: .6rem;
+            z-index: 99;
+            background-image: url('../assets/images/arrow-right.png');
+            width: 2.5vw;
+            height: 2.5vw;
+            filter: invert(80%);
+            border: none;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+
+}
+
+
+.carousel {
+
+    .buttonContainer{
+        justify-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        transform: translate(0%, -150%);
+        width: 90%;
+        .leftbutton {
+            z-index: 99;
+            margin-left: .6rem;
+            background-image: url('../assets/images/arrow-left.png');
+            width: 2.5vw;
+            justify-self: start;
+            height: 2.5vw;
+            filter: invert(80%);
+            border: none;
+            background-repeat: no-repeat;
+            background-size: contain;            
+        }
+        .rightbutton {
+            justify-self: end;
+            margin-right: .6rem;
+            z-index: 99;
+            background-image: url('../assets/images/arrow-right.png');
+            width: 2.5vw;
+            height: 2.5vw;
+            filter: invert(80%);
+            border: none;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}
