@@ -1,7 +1,7 @@
 import Style from "./modal.module.scss";
 import gc1 from '../../assets/images/gc1.webp';
 import gc2 from '../../assets/images/gc3.webp';
-import { ReactComponent as Closeicon } from "../assets/images/close.svg";
+import { ReactComponent as Closeicon } from "../../assets/images/close.svg";
 
 export const Modal = (props) => {
 

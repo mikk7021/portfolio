@@ -29,7 +29,7 @@
         .leftbutton {
             z-index: 99;
             margin-left: .6rem;
-            background-image: url('../assets/images/arrow-left.png');
+            // background-image: url('../../assets/images/arrow-left.png');
             width: 2.5vw;
             justify-self: start;
             height: 2.5vw;
@@ -42,7 +42,7 @@
             justify-self: end;
             margin-right: .6rem;
             z-index: 99;
-            background-image: url('../assets/images/arrow-right.png');
+            // background-image: url('../../assets/images/arrow-right.png');
             width: 2.5vw;
             height: 2.5vw;
             filter: invert(80%);
@@ -51,12 +51,9 @@
             background-size: contain;
         }
     }
-
 }
 
-
 .carousel {
-
     .buttonContainer{
         justify-items: center;
         display: grid;
@@ -66,7 +63,7 @@
         .leftbutton {
             z-index: 99;
             margin-left: .6rem;
-            background-image: url('../assets/images/arrow-left.png');
+            background-image: url('../../assets/images/arrow-left.png');
             width: 2.5vw;
             justify-self: start;
             height: 2.5vw;
@@ -79,7 +76,7 @@
             justify-self: end;
             margin-right: .6rem;
             z-index: 99;
-            background-image: url('../assets/images/arrow-right.png');
+            background-image: url('../../assets/images/arrow-right.png');
             width: 2.5vw;
             height: 2.5vw;
             filter: invert(80%);

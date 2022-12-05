@@ -1,8 +1,8 @@
 import { forwardRef } from "react"
 import Style from './ContactContent.module.scss'
-import { ReactComponent as Linkedin } from '../assets/images/linkedin.svg'
-import { ReactComponent as Gmail } from '../assets/images/gmail.svg'
-import { ReactComponent as Github } from '../assets/images/github.svg'
+import { ReactComponent as Linkedin } from '../../assets/images/linkedin.svg'
+import { ReactComponent as Gmail } from '../../assets/images/gmail.svg'
+import { ReactComponent as Github } from '../../assets/images/github.svg'
 import img from '../../assets/images/mig.webp'
 import useMediaQuery from "../hooks/useMediaQuery"
 
